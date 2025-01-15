@@ -14,6 +14,7 @@ function adjustPageScale() {
     scale = 0.5;
   }
 
+  console.log("Scaling");
   root.style.transform = `scale(${scale})`;
   root.style.transformOrigin = "top left";
   document.body.style.height = `${100 / scale}vh`;
